@@ -1,0 +1,294 @@
+{
+  "software_engineer": {
+    "title": "Software Engineer Resume Template",
+    "description": "Optimized for software development, backend, full-stack positions",
+    "sections": {
+      "header": {
+        "template": "{name}\n{title}\n{location} • {phone} • {email}\n{linkedin} • {github}",
+        "variables": ["name", "title", "location", "phone", "email", "linkedin", "github"]
+      },
+      "professional_summary": {
+        "template": "Experienced Software Engineer with {years}+ years in {specialization}. Proven expertise in {primary_technologies} and {secondary_skills}. Successfully delivered {achievement_example} and contributed to {impact_metric}.",
+        "variables": ["years", "specialization", "primary_technologies", "secondary_skills", "achievement_example", "impact_metric"],
+        "max_length": 150
+      },
+      "technical_skills": {
+        "categories": {
+          "programming_languages": "Programming Languages: {languages}",
+          "frameworks": "Frameworks & Libraries: {frameworks}",
+          "databases": "Databases: {databases}",
+          "tools": "Tools & Technologies: {tools}",
+          "cloud": "Cloud & DevOps: {cloud_tools}"
+        },
+        "common_skills": {
+          "languages": ["Python", "JavaScript", "Java", "TypeScript", "Go", "C++"],
+          "frameworks": ["React", "Node.js", "Django", "Flask", "Spring", "Express.js"],
+          "databases": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "DynamoDB"],
+          "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "VS Code", "IntelliJ"],
+          "cloud": ["AWS", "Azure", "GCP", "Terraform", "Ansible", "CI/CD"]
+        }
+      },
+      "experience": {
+        "template": "{title} | {company} | {location} | {duration}\n• {achievement1}\n• {achievement2}\n• {achievement3}\n• {technologies_used}",
+        "achievement_formulas": [
+          "Developed {feature} using {technology}, resulting in {metric}",
+          "Optimized {system} performance, reducing {metric} by {percentage}",
+          "Led team of {number} developers to deliver {project} {timeline}",
+          "Implemented {solution} that improved {process} by {improvement}"
+        ],
+        "variables": ["title", "company", "location", "duration", "achievement1", "achievement2", "achievement3", "technologies_used"]
+      },
+      "education": {
+        "template": "{degree} in {field}\n{university} | {location} | {year}\n{additional_info}",
+        "variables": ["degree", "field", "university", "location", "year", "additional_info"]
+      },
+      "projects": {
+        "template": "{project_name} | {technologies}\n{description}\n• {outcome1}\n• {outcome2}",
+        "variables": ["project_name", "technologies", "description", "outcome1", "outcome2"]
+      }
+    },
+    "ats_optimization": {
+      "keywords": [
+        "software development", "full-stack", "backend", "frontend", "microservices",
+        "API development", "database design", "cloud computing", "DevOps", "agile"
+      ],
+      "formatting": {
+        "use_standard_headings": true,
+        "avoid_graphics": true,
+        "use_common_fonts": ["Arial", "Calibri", "Times New Roman"],
+        "bullet_points": "•",
+        "date_format": "MM/YYYY"
+      }
+    }
+  },
+  "data_scientist": {
+    "title": "Data Scientist Resume Template",
+    "description": "Optimized for data science, machine learning, analytics positions",
+    "sections": {
+      "header": {
+        "template": "{name}\nData Scientist\n{location} • {phone} • {email}\n{linkedin} • {portfolio}",
+        "variables": ["name", "location", "phone", "email", "linkedin", "portfolio"]
+      },
+      "professional_summary": {
+        "template": "Data Scientist with {years}+ years of experience in {domain}. Expertise in {ml_techniques} and {tools}. Successfully built {model_example} that achieved {business_impact}.",
+        "variables": ["years", "domain", "ml_techniques", "tools", "model_example", "business_impact"],
+        "max_length": 150
+      },
+      "technical_skills": {
+        "categories": {
+          "programming": "Programming: {languages}",
+          "ml_frameworks": "ML/AI Frameworks: {ml_tools}",
+          "data_tools": "Data Tools: {data_platforms}",
+          "visualization": "Visualization: {viz_tools}",
+          "statistics": "Statistics: {stat_methods}"
+        },
+        "common_skills": {
+          "languages": ["Python", "R", "SQL", "Scala", "Julia"],
+          "ml_tools": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost"],
+          "data_platforms": ["Pandas", "NumPy", "Spark", "Hadoop", "Airflow"],
+          "viz_tools": ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI"],
+          "stat_methods": ["Regression", "Classification", "Clustering", "Time Series", "A/B Testing"]
+        }
+      },
+      "experience": {
+        "template": "{title} | {company} | {location} | {duration}\n• {model_achievement}\n• {business_impact}\n• {technical_implementation}\n• {collaboration}",
+        "achievement_formulas": [
+          "Built {model_type} model using {algorithms}, achieving {accuracy}% accuracy",
+          "Analyzed {data_size} dataset to identify {insights} that generated {revenue}",
+          "Developed {solution} pipeline processing {volume} daily, improving {metric} by {percentage}",
+          "Collaborated with {teams} to deploy ML models serving {users} users"
+        ],
+        "variables": ["title", "company", "location", "duration", "model_achievement", "business_impact", "technical_implementation", "collaboration"]
+      }
+    },
+    "ats_optimization": {
+      "keywords": [
+        "machine learning", "data analysis", "statistical modeling", "predictive analytics",
+        "deep learning", "natural language processing", "computer vision", "big data"
+      ]
+    }
+  },
+  "product_manager": {
+    "title": "Product Manager Resume Template",
+    "description": "Optimized for product management, strategy, and leadership positions",
+    "sections": {
+      "header": {
+        "template": "{name}\nProduct Manager\n{location} • {phone} • {email}\n{linkedin}",
+        "variables": ["name", "location", "phone", "email", "linkedin"]
+      },
+      "professional_summary": {
+        "template": "Product Manager with {years}+ years driving product strategy for {product_type}. Led {team_size} cross-functional teams to deliver {product_launches} that achieved {growth_metric}.",
+        "variables": ["years", "product_type", "team_size", "product_launches", "growth_metric"],
+        "max_length": 150
+      },
+      "core_competencies": {
+        "categories": {
+          "strategy": "Product Strategy: {strategy_skills}",
+          "execution": "Execution: {execution_skills}",
+          "analytics": "Analytics: {analytics_tools}",
+          "leadership": "Leadership: {leadership_skills}"
+        },
+        "common_skills": {
+          "strategy_skills": ["Roadmap Planning", "Market Research", "Competitive Analysis", "User Research"],
+          "execution_skills": ["Agile", "Scrum", "Cross-functional Leadership", "Stakeholder Management"],
+          "analytics_tools": ["SQL", "Google Analytics", "Mixpanel", "A/B Testing", "Data Analysis"],
+          "leadership_skills": ["Team Leadership", "Strategic Communication", "Prioritization", "Decision Making"]
+        }
+      },
+      "experience": {
+        "template": "{title} | {company} | {location} | {duration}\n• {product_launch}\n• {growth_achievement}\n• {team_leadership}\n• {strategic_impact}",
+        "achievement_formulas": [
+          "Launched {product} serving {users} users, resulting in {revenue} revenue growth",
+          "Led {initiative} that increased {metric} by {percentage} within {timeframe}",
+          "Managed product roadmap for {products}, coordinating {team_size} team members",
+          "Drove {feature} adoption from concept to {adoption_rate}% user adoption"
+        ]
+      }
+    },
+    "ats_optimization": {
+      "keywords": [
+        "product management", "product strategy", "roadmap", "user experience",
+        "agile", "scrum", "stakeholder management", "product launch", "growth"
+      ]
+    }
+  },
+  "marketing_specialist": {
+    "title": "Marketing Specialist Resume Template",
+    "description": "Optimized for digital marketing, content, and brand management positions",
+    "sections": {
+      "header": {
+        "template": "{name}\nMarketing Specialist\n{location} • {phone} • {email}\n{linkedin} • {portfolio}",
+        "variables": ["name", "location", "phone", "email", "linkedin", "portfolio"]
+      },
+      "professional_summary": {
+        "template": "Marketing Specialist with {years}+ years in {specialty}. Expertise in {channels} and {tools}. Successfully executed campaigns that generated {result} and improved {metric} by {percentage}.",
+        "variables": ["years", "specialty", "channels", "tools", "result", "metric", "percentage"],
+        "max_length": 150
+      },
+      "marketing_skills": {
+        "categories": {
+          "digital": "Digital Marketing: {digital_skills}",
+          "content": "Content & Creative: {content_skills}",
+          "analytics": "Analytics & Tools: {analytics_tools}",
+          "channels": "Marketing Channels: {channel_expertise}"
+        },
+        "common_skills": {
+          "digital_skills": ["SEO/SEM", "PPC", "Social Media", "Email Marketing", "Marketing Automation"],
+          "content_skills": ["Content Strategy", "Copywriting", "Brand Management", "Creative Campaign Development"],
+          "analytics_tools": ["Google Analytics", "HubSpot", "Salesforce", "Adobe Creative Suite", "Canva"],
+          "channel_expertise": ["Facebook Ads", "Google Ads", "LinkedIn Marketing", "Instagram", "YouTube"]
+        }
+      },
+      "experience": {
+        "template": "{title} | {company} | {location} | {duration}\n• {campaign_success}\n• {growth_metric}\n• {creative_achievement}\n• {collaboration}",
+        "achievement_formulas": [
+          "Managed {budget} marketing budget across {channels}, achieving {roi} ROI",
+          "Developed {campaign_type} campaign that increased {metric} by {percentage}",
+          "Created {content_type} content generating {engagement} engagement rate",
+          "Collaborated with {teams} to launch {initiative} reaching {audience_size} audience"
+        ]
+      }
+    },
+    "ats_optimization": {
+      "keywords": [
+        "digital marketing", "content marketing", "brand management", "campaign management",
+        "SEO", "SEM", "social media", "email marketing", "analytics", "ROI"
+      ]
+    }
+  },
+  "generic": {
+    "title": "Generic Professional Resume Template",
+    "description": "Adaptable template for various professional positions",
+    "sections": {
+      "header": {
+        "template": "{name}\n{title}\n{location} • {phone} • {email}\n{linkedin}",
+        "variables": ["name", "title", "location", "phone", "email", "linkedin"]
+      },
+      "professional_summary": {
+        "template": "{title} with {years}+ years of experience in {industry}. Proven track record in {key_skills} and {achievements}. Seeking to leverage expertise in {target_area} to contribute to {company_goal}.",
+        "variables": ["title", "years", "industry", "key_skills", "achievements", "target_area", "company_goal"],
+        "max_length": 150
+      },
+      "core_competencies": {
+        "template": "• {skill1}  • {skill2}  • {skill3}\n• {skill4}  • {skill5}  • {skill6}",
+        "variables": ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"]
+      },
+      "experience": {
+        "template": "{title} | {company} | {location} | {duration}\n• {accomplishment1}\n• {accomplishment2}\n• {accomplishment3}\n• {key_technologies}",
+        "variables": ["title", "company", "location", "duration", "accomplishment1", "accomplishment2", "accomplishment3", "key_technologies"]
+      }
+    },
+    "ats_optimization": {
+      "keywords": [],
+      "formatting": {
+        "use_standard_headings": true,
+        "avoid_graphics": true,
+        "use_common_fonts": ["Arial", "Calibri", "Times New Roman"],
+        "bullet_points": "•"
+      }
+    }
+  },
+  "customization_rules": {
+    "industry_adaptations": {
+      "technology": {
+        "emphasis": ["technical skills", "projects", "certifications"],
+        "keywords": ["agile", "scrum", "DevOps", "cloud", "API", "microservices"],
+        "format": "technical_focus"
+      },
+      "finance": {
+        "emphasis": ["quantitative achievements", "compliance", "risk management"],
+        "keywords": ["financial analysis", "risk assessment", "compliance", "audit"],
+        "format": "traditional"
+      },
+      "healthcare": {
+        "emphasis": ["patient care", "regulations", "safety"],
+        "keywords": ["patient safety", "HIPAA", "clinical", "healthcare technology"],
+        "format": "conservative"
+      }
+    },
+    "experience_level_adaptations": {
+      "entry_level": {
+        "focus": ["education", "projects", "internships", "relevant coursework"],
+        "summary_length": 100,
+        "experience_format": "project_heavy"
+      },
+      "mid_level": {
+        "focus": ["achievements", "growth", "leadership", "technical skills"],
+        "summary_length": 150,
+        "experience_format": "achievement_focused"
+      },
+      "senior_level": {
+        "focus": ["leadership", "strategy", "team building", "business impact"],
+        "summary_length": 200,
+        "experience_format": "leadership_focused"
+      }
+    },
+    "platform_optimizations": {
+      "linkedin": {
+        "max_summary_length": 2000,
+        "keyword_density": "medium",
+        "emphasis": "networking and thought leadership"
+      },
+      "seek": {
+        "max_summary_length": 4000,
+        "keyword_density": "high",
+        "emphasis": "local market relevance"
+      },
+      "ats_systems": {
+        "format": "simple_text",
+        "keyword_density": "high",
+        "avoid": ["tables", "columns", "graphics", "special_characters"]
+      }
+    }
+  },
+  "validation_rules": {
+    "required_sections": ["header", "professional_summary", "experience"],
+    "optional_sections": ["education", "skills", "projects", "certifications"],
+    "max_length": 2,
+    "min_experience_entries": 2,
+    "max_experience_entries": 5,
+    "date_format": "MM/YYYY",
+    "phone_format_validation": true,
+    "email_format_validation": true
+  }
+}
