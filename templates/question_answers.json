@@ -1,0 +1,294 @@
+{
+  "common_questions": {
+    "why_interested": {
+      "question_patterns": [
+        "why are you interested",
+        "why do you want to work",
+        "what attracts you",
+        "why this position",
+        "why our company"
+      ],
+      "answer_template": "I am particularly interested in this position because it aligns perfectly with my career goals in {field}. Your company's reputation for {company_strength} and commitment to {values} resonates with my professional values. I am excited about the opportunity to contribute my {skills} to help achieve {company_goals}.",
+      "variables": ["field", "company_strength", "values", "skills", "company_goals"]
+    },
+    "experience_years": {
+      "question_patterns": [
+        "years of experience",
+        "how long have you been",
+        "experience in this field",
+        "years in industry"
+      ],
+      "answer_template": "{years} years",
+      "variables": ["years"]
+    },
+    "salary_expectation": {
+      "question_patterns": [
+        "salary expectation",
+        "expected salary",
+        "salary requirements",
+        "compensation expectations",
+        "salary range"
+      ],
+      "linkedin_answer": "I am open to discussing a competitive salary that reflects the market rate for this position and my experience level. I am more interested in finding the right role where I can contribute meaningfully to the team.",
+      "seek_answer": "I am looking for a competitive salary commensurate with my experience and the market rate for similar positions. I am open to discussing the total compensation package including benefits."
+    },
+    "availability": {
+      "question_patterns": [
+        "when can you start",
+        "availability date",
+        "start date",
+        "notice period",
+        "available to start"
+      ],
+      "answer_template": "I am available to start within {notice_period} weeks, which would allow me to properly transition my current responsibilities and ensure a smooth handover.",
+      "variables": ["notice_period"],
+      "default_values": {
+        "notice_period": "2-4"
+      }
+    },
+    "willingness_to_relocate": {
+      "question_patterns": [
+        "willing to relocate",
+        "open to relocation",
+        "move to",
+        "relocate for position"
+      ],
+      "answer_template": "Yes, I am open to relocation for the right opportunity. I believe this position offers excellent growth potential and I am excited about the possibility of joining your team.",
+      "alternative_answer": "I am currently not looking to relocate, but I am interested in remote work arrangements if that's a possibility for this role."
+    },
+    "remote_work": {
+      "question_patterns": [
+        "remote work",
+        "work from home",
+        "flexible work",
+        "hybrid work"
+      ],
+      "answer_template": "I am comfortable with both remote and in-office work arrangements. I have experience working effectively in remote teams and value the flexibility to deliver results regardless of location. I am also happy to collaborate in-person when needed for team meetings or project requirements."
+    },
+    "strengths": {
+      "question_patterns": [
+        "greatest strength",
+        "key strengths",
+        "what are your strengths",
+        "main strengths"
+      ],
+      "answer_template": "My greatest strengths include {primary_strength}, strong problem-solving abilities, and effective communication skills. I pride myself on being a quick learner who can adapt to new technologies and work collaboratively with diverse teams to achieve common goals.",
+      "variables": ["primary_strength"],
+      "examples": {
+        "technical": "analytical thinking and technical expertise",
+        "leadership": "leadership and team management",
+        "creative": "creativity and innovative thinking",
+        "communication": "communication and interpersonal skills"
+      }
+    },
+    "company_size_preference": {
+      "question_patterns": [
+        "company size preference",
+        "startup vs enterprise",
+        "small company or large",
+        "company environment"
+      ],
+      "answer_template": "I am open to working in companies of various sizes. Each offers unique advantages - startups provide agility and innovation opportunities, while larger companies offer resources and established processes. I am most interested in the team culture, growth opportunities, and the potential to make meaningful contributions."
+    },
+    "career_goals": {
+      "question_patterns": [
+        "career goals",
+        "where do you see yourself",
+        "future plans",
+        "career aspirations"
+      ],
+      "answer_template": "My career goal is to continue growing in {field} while taking on increasing responsibilities in {focus_area}. I am particularly interested in {specific_goals} and believe this role would provide excellent opportunities to develop these skills while contributing to meaningful projects.",
+      "variables": ["field", "focus_area", "specific_goals"]
+    }
+  },
+  "technical_questions": {
+    "programming_languages": {
+      "question_patterns": [
+        "programming languages",
+        "coding languages",
+        "languages you know",
+        "tech stack"
+      ],
+      "answer_template": "{languages}",
+      "variables": ["languages"],
+      "common_combinations": {
+        "web_dev": "JavaScript, Python, HTML, CSS, SQL",
+        "backend": "Python, Java, SQL, NoSQL",
+        "data_science": "Python, R, SQL, Scala",
+        "mobile": "Swift, Kotlin, Java, JavaScript"
+      }
+    },
+    "years_with_technology": {
+      "question_patterns": [
+        "years with",
+        "experience in",
+        "how long using",
+        "proficiency with"
+      ],
+      "answer_template": "{years} years of hands-on experience",
+      "variables": ["years"]
+    },
+    "proficiency_level": {
+      "question_patterns": [
+        "proficiency level",
+        "skill level",
+        "rate your skills",
+        "expertise level"
+      ],
+      "answer_options": ["Beginner", "Intermediate", "Advanced", "Expert"],
+      "descriptions": {
+        "Beginner": "Learning fundamentals, can complete basic tasks with guidance",
+        "Intermediate": "Comfortable with common tasks, can work independently on standard projects",
+        "Advanced": "Highly proficient, can handle complex projects and mentor others",
+        "Expert": "Deep expertise, can architect solutions and lead technical decisions"
+      }
+    },
+    "frameworks_experience": {
+      "question_patterns": [
+        "frameworks used",
+        "libraries experience",
+        "framework preference"
+      ],
+      "answer_template": "I have experience with {frameworks}. My preferred framework for {use_case} is {preferred_framework} because of {reasons}.",
+      "variables": ["frameworks", "use_case", "preferred_framework", "reasons"]
+    }
+  },
+  "behavioral_questions": {
+    "problem_solving": {
+      "question_patterns": [
+        "describe a challenge",
+        "difficult problem",
+        "how do you solve problems"
+      ],
+      "answer_framework": "STAR",
+      "answer_template": "**Situation**: {situation}\n**Task**: {task}\n**Action**: {action}\n**Result**: {result}",
+      "variables": ["situation", "task", "action", "result"]
+    },
+    "teamwork": {
+      "question_patterns": [
+        "working in a team",
+        "team collaboration",
+        "team conflict"
+      ],
+      "answer_template": "I believe effective teamwork requires clear communication, mutual respect, and shared goals. In my experience, {example_situation}, I {actions_taken} which resulted in {positive_outcome}.",
+      "variables": ["example_situation", "actions_taken", "positive_outcome"]
+    },
+    "leadership": {
+      "question_patterns": [
+        "leadership experience",
+        "led a team",
+        "leadership style"
+      ],
+      "answer_template": "My leadership approach focuses on {leadership_style}. For example, when {leadership_situation}, I {leadership_actions} which resulted in {leadership_outcome}. I believe in empowering team members and fostering collaborative decision-making.",
+      "variables": ["leadership_style", "leadership_situation", "leadership_actions", "leadership_outcome"]
+    }
+  },
+  "platform_specific": {
+    "linkedin": {
+      "character_limits": {
+        "cover_letter": 2000,
+        "message": 300,
+        "headline": 120
+      },
+      "common_fields": [
+        "phone",
+        "email",
+        "linkedin_profile",
+        "website",
+        "github",
+        "portfolio"
+      ],
+      "tone_preferences": [
+        "professional",
+        "conversational",
+        "enthusiastic",
+        "concise"
+      ]
+    },
+    "seek": {
+      "character_limits": {
+        "cover_letter": 4000,
+        "summary": 1000
+      },
+      "common_fields": [
+        "phone",
+        "email",
+        "address",
+        "visa_status",
+        "salary_expectation",
+        "availability"
+      ],
+      "required_fields": {
+        "visa_status": [
+          "Australian Citizen",
+          "Permanent Resident",
+          "Work Visa Holder",
+          "Require Sponsorship"
+        ],
+        "salary_expectation": [
+          "Competitive",
+          "$XX,000 - $XX,000",
+          "Market Rate",
+          "Negotiable"
+        ]
+      },
+      "tone_preferences": [
+        "professional",
+        "detailed",
+        "formal",
+        "comprehensive"
+      ]
+    }
+  },
+  "industry_specific": {
+    "technology": {
+      "common_values": [
+        "innovation",
+        "continuous learning",
+        "problem-solving",
+        "collaboration",
+        "user-focused"
+      ],
+      "trending_keywords": [
+        "AI/ML",
+        "cloud computing",
+        "DevOps",
+        "microservices",
+        "agile",
+        "scalability"
+      ]
+    },
+    "finance": {
+      "common_values": [
+        "accuracy",
+        "compliance",
+        "risk management",
+        "analytical thinking",
+        "client service"
+      ],
+      "trending_keywords": [
+        "fintech",
+        "regulatory compliance",
+        "data analytics",
+        "digital transformation",
+        "risk assessment"
+      ]
+    },
+    "healthcare": {
+      "common_values": [
+        "patient care",
+        "safety",
+        "compassion",
+        "continuous improvement",
+        "teamwork"
+      ],
+      "trending_keywords": [
+        "digital health",
+        "patient experience",
+        "evidence-based care",
+        "health informatics",
+        "quality improvement"
+      ]
+    }
+  }
+}

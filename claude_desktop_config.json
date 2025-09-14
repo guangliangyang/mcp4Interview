@@ -1,0 +1,95 @@
+{
+  "mcpServers": {
+    "job-applier": {
+      "command": "python",
+      "args": ["src/server.py"],
+      "cwd": "/Users/andy/workspace/00-mcp",
+      "env": {
+        "PYTHONPATH": "/Users/andy/workspace/00-mcp"
+      }
+    }
+  },
+  "tools": {
+    "job-applier": {
+      "description": "MCP智能简历投递助手 - LinkedIn & SEEK 专项版",
+      "version": "1.0.0",
+      "capabilities": [
+        "job_search",
+        "application_automation",
+        "ai_content_generation",
+        "application_tracking",
+        "file_management"
+      ],
+      "platforms": ["linkedin", "seek"],
+      "features": {
+        "search_jobs": {
+          "description": "搜索LinkedIn和SEEK平台的职位信息",
+          "parameters": ["platform", "keywords", "location", "salary_min", "job_type", "limit"]
+        },
+        "analyze_job_match": {
+          "description": "分析职位与简历的匹配度",
+          "parameters": ["job_description", "resume_path"]
+        },
+        "filter_applied_jobs": {
+          "description": "过滤已申请的职位，避免重复申请",
+          "parameters": ["job_urls"]
+        },
+        "generate_cover_letter": {
+          "description": "基于AI生成个性化求职信",
+          "parameters": ["job_description", "company_name", "position_title", "resume_summary"]
+        },
+        "customize_resume": {
+          "description": "根据职位要求定制简历内容",
+          "parameters": ["base_resume", "job_requirements", "output_format"]
+        },
+        "optimize_keywords": {
+          "description": "优化内容关键词以提高ATS通过率",
+          "parameters": ["content", "job_posting", "content_type"]
+        },
+        "auto_apply_linkedin": {
+          "description": "LinkedIn平台自动申请职位",
+          "parameters": ["job_url", "cover_letter", "additional_info"]
+        },
+        "auto_apply_seek": {
+          "description": "SEEK平台自动申请职位",
+          "parameters": ["job_url", "cover_letter", "additional_info"]
+        },
+        "handle_application_questions": {
+          "description": "智能回答申请过程中的问题",
+          "parameters": ["questions", "job_context", "user_profile"]
+        },
+        "track_applications": {
+          "description": "追踪所有申请的状态和进度",
+          "parameters": ["platform", "days_back"]
+        },
+        "update_application_status": {
+          "description": "更新申请状态和备注",
+          "parameters": ["job_id", "new_status", "notes"]
+        },
+        "generate_application_report": {
+          "description": "生成申请统计报告",
+          "parameters": ["date_range", "report_type"]
+        },
+        "upload_resume": {
+          "description": "上传和管理简历文件",
+          "parameters": ["file_path", "resume_name"]
+        },
+        "get_job_statistics": {
+          "description": "获取求职数据统计和分析",
+          "parameters": ["time_period", "platform"]
+        }
+      }
+    }
+  },
+  "settings": {
+    "compliance": {
+      "respect_rate_limits": true,
+      "max_applications_per_hour": {
+        "linkedin": 50,
+        "seek": 30
+      },
+      "human_like_delays": true,
+      "anti_detection_enabled": true
+    }
+  }
+}

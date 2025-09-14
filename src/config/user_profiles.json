@@ -1,0 +1,290 @@
+{
+  "default_profiles": {
+    "linkedin": {
+      "personal_info": {
+        "first_name": "[Your First Name]",
+        "last_name": "[Your Last Name]",
+        "email": "[your.email@example.com]",
+        "phone": "[Your Phone Number]",
+        "location": "[Your City, State/Province, Country]",
+        "linkedin_url": "[https://linkedin.com/in/yourprofile]",
+        "website": "[Your Website URL]",
+        "github": "[GitHub Profile URL]"
+      },
+      "professional_summary": {
+        "headline": "[Professional Title] with [X] years of experience in [Industry/Field]",
+        "summary": "Experienced [Your Title] with a proven track record in [key areas]. Skilled in [primary skills] with expertise in [specialized areas]. Passionate about [what drives you professionally].",
+        "key_skills": [
+          "[Skill 1]",
+          "[Skill 2]",
+          "[Skill 3]",
+          "[Skill 4]",
+          "[Skill 5]"
+        ],
+        "industry_expertise": [
+          "[Industry 1]",
+          "[Industry 2]",
+          "[Industry 3]"
+        ]
+      },
+      "experience": [
+        {
+          "title": "[Most Recent Job Title]",
+          "company": "[Company Name]",
+          "duration": "[Start Date] - Present",
+          "location": "[City, State/Province]",
+          "description": "Led [key responsibility] resulting in [quantifiable achievement]. Managed [team size/budget/projects] and improved [specific metric] by [percentage/amount].",
+          "achievements": [
+            "Increased [metric] by [amount/percentage]",
+            "Successfully implemented [project/system]",
+            "Led team of [number] to deliver [outcome]"
+          ]
+        },
+        {
+          "title": "[Previous Job Title]",
+          "company": "[Previous Company]",
+          "duration": "[Start Date] - [End Date]",
+          "location": "[City, State/Province]",
+          "description": "Responsible for [key duties] and achieved [notable results]. Collaborated with [teams/departments] to [accomplish what].",
+          "achievements": [
+            "Delivered [project/result] ahead of schedule",
+            "Reduced [cost/time/errors] by [amount]",
+            "Trained and mentored [number] team members"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "[Degree Type] in [Field of Study]",
+          "institution": "[University/College Name]",
+          "graduation_year": "[Year]",
+          "location": "[City, State/Province]",
+          "gpa": "[GPA - if notable]",
+          "relevant_coursework": [
+            "[Course 1]",
+            "[Course 2]",
+            "[Course 3]"
+          ]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "[Certification Name]",
+          "issuing_org": "[Issuing Organization]",
+          "date": "[Issue Date]",
+          "expiry": "[Expiry Date - if applicable]",
+          "credential_id": "[ID if available]"
+        }
+      ],
+      "preferences": {
+        "job_types": ["Full-time", "Contract", "Part-time"],
+        "work_arrangements": ["On-site", "Remote", "Hybrid"],
+        "salary_range": {
+          "min": 0,
+          "max": 200000,
+          "currency": "USD"
+        },
+        "preferred_locations": [
+          "[City 1, State]",
+          "[City 2, State]",
+          "Remote"
+        ],
+        "willing_to_relocate": true,
+        "visa_status": "Authorized to work",
+        "notice_period_weeks": 2
+      },
+      "application_settings": {
+        "auto_fill_forms": true,
+        "default_cover_letter_template": "software_engineer",
+        "question_answering": {
+          "salary_expectation": "Competitive, based on market rate and total compensation package",
+          "availability": "Available to start within 2-4 weeks",
+          "why_interested": "Excited about the opportunity to contribute my skills and grow with an innovative team",
+          "work_authorization": "Yes, authorized to work without sponsorship"
+        }
+      }
+    },
+    "seek": {
+      "personal_info": {
+        "title": "[Mr/Ms/Dr]",
+        "first_name": "[Your First Name]",
+        "last_name": "[Your Last Name]",
+        "email": "[your.email@example.com]",
+        "phone": "[Your Phone Number]",
+        "mobile": "[Your Mobile Number]",
+        "address": {
+          "line1": "[Street Address]",
+          "line2": "[Apartment/Unit - if applicable]",
+          "suburb": "[Suburb]",
+          "state": "[State/Territory]",
+          "postcode": "[Postcode]",
+          "country": "Australia"
+        },
+        "date_of_birth": "[DD/MM/YYYY - if required]",
+        "gender": "[Gender - if required]"
+      },
+      "work_rights": {
+        "status": "Australian Citizen",
+        "visa_type": "[Visa Type - if applicable]",
+        "visa_expiry": "[DD/MM/YYYY - if applicable]",
+        "restrictions": "No restrictions"
+      },
+      "professional_details": {
+        "current_title": "[Current Job Title]",
+        "industry": "[Primary Industry]",
+        "years_experience": "[Number] years",
+        "salary_expectation": {
+          "amount": "[Annual Salary]",
+          "type": "Annual",
+          "negotiable": true
+        },
+        "notice_period": "4 weeks",
+        "available_start": "[DD/MM/YYYY or Immediately]"
+      },
+      "skills_keywords": [
+        "[Primary Skill 1]",
+        "[Primary Skill 2]",
+        "[Primary Skill 3]",
+        "[Technical Skill 1]",
+        "[Technical Skill 2]",
+        "[Soft Skill 1]",
+        "[Soft Skill 2]",
+        "[Industry Knowledge 1]",
+        "[Industry Knowledge 2]",
+        "[Certification/Qualification]"
+      ],
+      "preferred_locations": [
+        {
+          "city": "[City]",
+          "state": "[State]",
+          "radius_km": 50
+        }
+      ],
+      "job_preferences": {
+        "employment_types": ["Permanent", "Contract", "Casual", "Temp"],
+        "work_types": ["Full Time", "Part Time"],
+        "salary_types": ["Annual", "Hourly", "Daily"],
+        "industries": [
+          "[Preferred Industry 1]",
+          "[Preferred Industry 2]",
+          "[Preferred Industry 3]"
+        ]
+      },
+      "application_answers": {
+        "cover_letter_preference": "Upload custom letter",
+        "application_questions": {
+          "why_suitable": "My [X] years of experience in [field] and proven track record in [specific area] make me well-suited for this role. I have successfully [key achievement] and am excited to bring these skills to your team.",
+          "salary_expectation": "I am seeking a competitive salary commensurate with my experience and the market rate for this position.",
+          "availability": "I am available to commence within 4 weeks, allowing for appropriate notice period.",
+          "work_rights": "Yes, I have full working rights in Australia with no restrictions."
+        }
+      }
+    }
+  },
+  "profile_templates": {
+    "software_developer": {
+      "skills": [
+        "Python", "JavaScript", "Java", "React", "Node.js", "SQL",
+        "Git", "AWS", "Docker", "Agile", "Problem Solving", "Team Collaboration"
+      ],
+      "summary_template": "Experienced Software Developer with {years} years of expertise in full-stack development. Proficient in {primary_languages} with strong experience in {frameworks}. Passionate about building scalable applications and collaborating with cross-functional teams to deliver high-quality solutions.",
+      "industry_focus": ["Technology", "Software", "IT Services", "Fintech", "E-commerce"]
+    },
+    "data_scientist": {
+      "skills": [
+        "Python", "R", "SQL", "Machine Learning", "Deep Learning", "TensorFlow",
+        "PyTorch", "Pandas", "NumPy", "Scikit-learn", "Data Visualization", "Statistics"
+      ],
+      "summary_template": "Data Scientist with {years} years of experience in machine learning and statistical analysis. Skilled in {ml_frameworks} and experienced in developing predictive models that drive business insights. Strong background in {domain_expertise} with proven ability to translate complex data into actionable recommendations.",
+      "industry_focus": ["Technology", "Finance", "Healthcare", "E-commerce", "Consulting"]
+    },
+    "product_manager": {
+      "skills": [
+        "Product Strategy", "Roadmap Planning", "User Research", "Agile", "Scrum",
+        "Data Analysis", "Market Research", "Stakeholder Management", "A/B Testing", "SQL"
+      ],
+      "summary_template": "Product Manager with {years} years of experience driving product strategy and execution. Proven track record of launching successful products and features that improve user experience and drive business growth. Strong analytical skills combined with deep understanding of user needs and market dynamics.",
+      "industry_focus": ["Technology", "SaaS", "Mobile Apps", "E-commerce", "Fintech"]
+    },
+    "marketing_specialist": {
+      "skills": [
+        "Digital Marketing", "Content Marketing", "SEO/SEM", "Social Media",
+        "Google Analytics", "Email Marketing", "Campaign Management", "Brand Strategy",
+        "Market Research", "CRM", "Adobe Creative Suite", "Marketing Automation"
+      ],
+      "summary_template": "Marketing Specialist with {years} years of experience in digital marketing and brand management. Expertise in developing and executing integrated marketing campaigns that increase brand awareness and drive customer acquisition. Data-driven approach with strong creative and analytical skills.",
+      "industry_focus": ["Marketing", "Advertising", "E-commerce", "Technology", "Retail"]
+    }
+  },
+  "common_questions": {
+    "linkedin": [
+      "Why are you interested in this position?",
+      "What is your expected salary range?",
+      "When are you available to start?",
+      "Are you willing to relocate?",
+      "Do you have authorization to work?",
+      "How many years of experience do you have?",
+      "What are your salary expectations?",
+      "Are you open to remote work?",
+      "What is your notice period?",
+      "Why are you looking for a new opportunity?"
+    ],
+    "seek": [
+      "Why are you suitable for this role?",
+      "What are your salary expectations?",
+      "When are you available to start?",
+      "Do you have the right to work in Australia?",
+      "Are you willing to undergo background checks?",
+      "What is your current employment status?",
+      "How did you hear about this position?",
+      "Are you available for shift work?",
+      "Do you have reliable transport?",
+      "Are you willing to travel for work?"
+    ]
+  },
+  "validation_rules": {
+    "required_fields": ["first_name", "last_name", "email", "phone"],
+    "format_rules": {
+      "email": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+      "phone": "^[+]?[0-9\\s\\-\\(\\)]{10,}$",
+      "linkedin_url": "^https?://(?:www\\.)?linkedin\\.com/in/[a-zA-Z0-9\\-]+/?$"
+    },
+    "character_limits": {
+      "summary": 2000,
+      "headline": 120,
+      "experience_description": 2000,
+      "skills": 500
+    }
+  },
+  "localization": {
+    "australia": {
+      "date_format": "DD/MM/YYYY",
+      "phone_format": "+61 X XXXX XXXX",
+      "address_format": "Australian standard",
+      "salary_currency": "AUD",
+      "common_visa_types": [
+        "Australian Citizen",
+        "Permanent Resident",
+        "457 Visa",
+        "482 Visa",
+        "Working Holiday Visa",
+        "Student Visa with work rights",
+        "Bridging Visa"
+      ]
+    },
+    "united_states": {
+      "date_format": "MM/DD/YYYY",
+      "phone_format": "+1 (XXX) XXX-XXXX",
+      "address_format": "US standard",
+      "salary_currency": "USD",
+      "work_authorization": [
+        "US Citizen",
+        "Permanent Resident",
+        "H1-B Visa",
+        "L-1 Visa",
+        "EAD Holder",
+        "Require Sponsorship"
+      ]
+    }
+  }
+}

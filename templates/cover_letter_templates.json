@@ -1,0 +1,140 @@
+{
+  "software_engineer": {
+    "title": "软件工程师求职信模板",
+    "description": "适用于软件开发、后端开发、全栈工程师等职位",
+    "template": "Dear Hiring Manager,\n\nI am writing to express my strong interest in the {position} position at {company}. With my background in {primary_skills} and proven track record of {experience_years} years in software development, I am confident I would be a valuable addition to your team.\n\nIn my previous roles, I have successfully {key_achievements}. My experience with {technical_skills} aligns well with your requirements, particularly in {specific_requirements}. I am passionate about building scalable, efficient solutions and have consistently delivered high-quality code that meets both user needs and business objectives.\n\nWhat excites me most about {company} is {company_strength}. I am eager to contribute my expertise in {relevant_skills} to help drive your continued innovation and success.\n\nThank you for your consideration. I look forward to discussing how my technical skills and enthusiasm can benefit your development team.\n\nBest regards,\n{candidate_name}",
+    "variables": [
+      "position",
+      "company",
+      "primary_skills",
+      "experience_years",
+      "key_achievements",
+      "technical_skills",
+      "specific_requirements",
+      "company_strength",
+      "relevant_skills",
+      "candidate_name"
+    ],
+    "platform_optimized": {
+      "linkedin": {
+        "max_length": 2000,
+        "tone": "professional_casual"
+      },
+      "seek": {
+        "max_length": 4000,
+        "tone": "professional_formal"
+      }
+    }
+  },
+  "data_scientist": {
+    "title": "数据科学家求职信模板",
+    "description": "适用于数据科学家、数据分析师、机器学习工程师等职位",
+    "template": "Dear Hiring Manager,\n\nI am excited to apply for the {position} role at {company}. With a strong foundation in {data_skills} and {experience_years} years of experience in data analysis and machine learning, I am well-positioned to drive data-driven insights for your organization.\n\nMy expertise includes {technical_expertise}, which directly addresses the requirements outlined in your job posting. In my previous role, I {major_accomplishment}, demonstrating my ability to translate complex data into actionable business strategies that resulted in {quantified_impact}.\n\nI am particularly drawn to {company}'s innovative approach to {company_focus} and the opportunity to work with {relevant_technologies}. My experience in {domain_expertise} would allow me to make an immediate impact on your data initiatives.\n\nThank you for considering my application. I look forward to the opportunity to discuss how my analytical skills and passion for data can contribute to {company}'s continued success.\n\nSincerely,\n{candidate_name}",
+    "variables": [
+      "position",
+      "company",
+      "data_skills",
+      "experience_years",
+      "technical_expertise",
+      "major_accomplishment",
+      "quantified_impact",
+      "company_focus",
+      "relevant_technologies",
+      "domain_expertise",
+      "candidate_name"
+    ],
+    "platform_optimized": {
+      "linkedin": {
+        "max_length": 2000,
+        "tone": "professional_analytical"
+      },
+      "seek": {
+        "max_length": 4000,
+        "tone": "professional_detailed"
+      }
+    }
+  },
+  "product_manager": {
+    "title": "产品经理求职信模板",
+    "description": "适用于产品经理、项目经理、产品负责人等职位",
+    "template": "Dear {company} Team,\n\nI am writing to express my strong interest in the {position} role at {company}. With {experience_years} years of product management experience and a proven track record of delivering successful products, I am excited about the opportunity to drive product strategy and growth at your organization.\n\nMy background includes {product_experience}, where I have consistently {key_achievements}. I excel at {core_competencies} and have experience working with cross-functional teams including engineering, design, and marketing to bring products from concept to market.\n\nWhat attracts me to {company} is {company_attraction}. I am particularly interested in {specific_opportunity} and believe my experience with {relevant_experience} would be valuable in achieving your product goals.\n\nI would welcome the opportunity to discuss how my product vision, analytical mindset, and collaborative approach can contribute to {company}'s continued innovation and market success.\n\nBest regards,\n{candidate_name}",
+    "variables": [
+      "company",
+      "position",
+      "experience_years",
+      "product_experience",
+      "key_achievements",
+      "core_competencies",
+      "company_attraction",
+      "specific_opportunity",
+      "relevant_experience",
+      "candidate_name"
+    ],
+    "platform_optimized": {
+      "linkedin": {
+        "max_length": 2000,
+        "tone": "strategic_collaborative"
+      },
+      "seek": {
+        "max_length": 4000,
+        "tone": "strategic_formal"
+      }
+    }
+  },
+  "marketing_specialist": {
+    "title": "市场营销专员求职信模板",
+    "description": "适用于市场营销、数字营销、品牌营销等职位",
+    "template": "Dear Hiring Manager,\n\nI am thrilled to apply for the {position} position at {company}. With {experience_years} years of experience in {marketing_focus} and a passion for creating compelling campaigns that drive results, I am excited to contribute to your marketing team's success.\n\nIn my previous role, I {marketing_achievement}, which resulted in {quantified_results}. My expertise in {marketing_channels} and proficiency with {marketing_tools} enable me to develop and execute integrated marketing strategies that resonate with target audiences and deliver measurable ROI.\n\nI am particularly impressed by {company}'s {brand_attribute} and your recent {company_initiative}. I believe my experience in {relevant_expertise} and my creative approach to {specific_skill_area} would be valuable in supporting your marketing objectives and brand growth.\n\nThank you for considering my application. I look forward to discussing how my marketing expertise and creative vision can help {company} achieve its growth goals.\n\nWarm regards,\n{candidate_name}",
+    "variables": [
+      "position",
+      "company",
+      "experience_years",
+      "marketing_focus",
+      "marketing_achievement",
+      "quantified_results",
+      "marketing_channels",
+      "marketing_tools",
+      "brand_attribute",
+      "company_initiative",
+      "relevant_expertise",
+      "specific_skill_area",
+      "candidate_name"
+    ],
+    "platform_optimized": {
+      "linkedin": {
+        "max_length": 2000,
+        "tone": "creative_professional"
+      },
+      "seek": {
+        "max_length": 4000,
+        "tone": "creative_formal"
+      }
+    }
+  },
+  "generic": {
+    "title": "通用求职信模板",
+    "description": "适用于各种职位的通用模板",
+    "template": "Dear Hiring Manager,\n\nI am writing to express my interest in the {position} role at {company}. My background in {field} and experience with {key_skills} make me an ideal candidate for this position.\n\n{experience_paragraph}\n\nI am impressed by {company}'s {company_strength} and would be excited to contribute to your team. My skills in {relevant_skills} and my commitment to {professional_values} would allow me to make an immediate and meaningful impact.\n\nThank you for your time and consideration. I look forward to discussing this opportunity further and learning more about how I can contribute to {company}'s continued success.\n\nBest regards,\n{candidate_name}",
+    "variables": [
+      "position",
+      "company",
+      "field",
+      "key_skills",
+      "experience_paragraph",
+      "company_strength",
+      "relevant_skills",
+      "professional_values",
+      "candidate_name"
+    ],
+    "platform_optimized": {
+      "linkedin": {
+        "max_length": 2000,
+        "tone": "professional_adaptable"
+      },
+      "seek": {
+        "max_length": 4000,
+        "tone": "professional_comprehensive"
+      }
+    }
+  }
+}
